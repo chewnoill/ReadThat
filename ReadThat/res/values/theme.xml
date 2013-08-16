@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="article">
+    	<item name="android:colorBackground">@color/theme_article_color</item>
+	</style>
+    <style name="article_title">
+    	<item name="android:textColor">@color/theme_article_text_color</item>
+    	<item name="android:textSize">16sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:paddingLeft">10dip</item>
+    	<item name="android:paddingRight">2dip</item>
+	</style>
+	<style name="article_submitted_by">
+	    <item name="android:textSize">10sp</item>
+	    <item name="android:paddingLeft">5dip</item>
+	    <item name="android:textColor">@color/theme_text_color</item>
+	</style>
+	<style name="article_comments">
+    	<item name="android:textSize">10sp</item>
+	    <item name="android:textColor">@color/theme_text_color</item>
+	    <item name="android:paddingLeft">5dip</item>
+	    <item name="android:padding">2dip</item>
+	</style>
+	<style name="article_score">
+    	<item name="android:textSize">10sp</item>
+	    <item name="android:textColor">@color/theme_text_color</item>
+	    <item name="android:padding">2dip</item>
+	</style>
+	<style name="article_subreddit">
+    	<item name="android:textSize">10sp</item>
+	    <item name="android:textColor">@color/theme_text_color</item>
+	    <item name="android:padding">2dip</item>
+	    <item name="android:paddingLeft">5dip</item>
+	    <item name="android:background">@drawable/boarder</item>
+	</style>
+	<style name="article_page_number">
+	    <item name="android:background">#BEBEBE</item>
+	</style>
+	<style name="menu_item">
+	    <item name="android:textSize">16sp</item> 
+	    <item name="android:textColor">@color/theme_text_color</item>
+	    <item name="android:paddingBottom">10dip</item>
+	    <item name="android:paddingTop">10dip</item>
+	    <item name="android:background">@drawable/button_highlight</item>
+	    <item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+	</style>
+	<style name="divider">
+	    <item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">1dip</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:background">@color/divider</item>
+	</style>
+	
+	<style name="comment_button">
+	    <item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">10dip</item>
+	</style>
+	
+	<style name="comment_tree_spacer">
+	    <item name="android:layout_width">5dip</item>
+	    <item name="android:layout_height">wrap_content</item>
+	</style>
+</resources>

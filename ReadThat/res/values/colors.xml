@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_pressed">#3CC5FE</color>
+    <color name="button_focused">#3CC5FE</color>
+    
+    <color name="theme_background_color">#FFFFFF</color>
+    <color name="theme_text_color">#1C1C1C</color>
+    <color name="theme_article_text_color">#0101DF</color>
+    <color name="theme_article_color">#CECEF6</color>
+    
+    <color name="divider">#1C1C1C</color>
+    
+    <color name="comment_background_primary">#3D3D3D</color>
+    <color name="comment_background_alternate">#5F5F5F</color>
+</resources>

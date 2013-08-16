@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<View 
+	    android:id="@+id/refresh_notify"
+	    android:visibility="gone"
+		android:layout_width="1dip"
+	    android:background="#5882FA"
+		android:layout_height="15dip"
+		android:layout_gravity="center"/>
+	<com.chewnoill.readthat.SubredditDetailView 
+	    android:id="@+id/content_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:padding="16dp">
+	
+	    	
+	   	<LinearLayout
+	       	android:id="@+id/subreddit_detail"
+	       	android:layout_width="match_parent"
+	   		android:layout_height="wrap_content"
+	   		android:orientation="vertical"/>
+	
+	</com.chewnoill.readthat.SubredditDetailView>
+	<LinearLayout 
+	    android:visibility="gone"
+	    android:id="@+id/next_page_notify"
+	    android:layout_width="match_parent"
+		android:layout_height="15dip"
+		android:orientation="vertical"/>
+</LinearLayout>

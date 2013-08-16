@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReadThat</string>
+    <string name="title_subreddit_detail">subreddit Detail</string>
+	<!--  article small text -->
+    <string name="comments">comments</string>
+    <string name="submitted_by"> submitted by </string>
+    <string name="submitted_to"> to </string>
+    <string name="submitted_on"> on </string>
+    
+    <!-- article small image descriptions -->
+    <string name="up_vote">up vote</string>
+    <string name="down_vote">down vote</string>
+    <string name="thumbnail">thumbnail</string>
+    
+    <!-- article comment text -->
+    <string name="reply">reply</string>
+    <string name="hide_children">hide children</string>
+    
+    
+</resources>
